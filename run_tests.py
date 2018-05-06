@@ -3,6 +3,9 @@ import time
 
 """
 说明：
+py.tes
+--rerun 2    用例失败再重跑2次
+--html 报告放置的位置
 
 """
 

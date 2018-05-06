@@ -12,7 +12,11 @@ class WebDriver(object):
     PO模型基础类，对原生webdriver类进行二次封装‘
     """
     BASE_URL = "https://www.baidu.com"  # 定义项目基本URL
-    TIME_OUT = 10 # 定位元素定位超时时间
+    TIME_OUT = 10 # 定位元素定位超时时间 
+    url = None
+    driver = None
+    domain = None
+
 
     def __init__(self, selenium_webdriver, base_url=BASE_URL, time_out=TIME_OUT):
         self.driver = selenium_webdriver
@@ -344,6 +348,21 @@ class WebDriver(object):
         """
         e1 = self.get_element(css)
         Select(e1).select_by_value(value)
+
+    def screenshot_on_exception(self, locator):
+        """
+        元素动态等待与截图
+        :param css: 
+        :param value: 
+        :return: 
+        """
+        try:
+            WebDriverWait(self.driver, DEFAULT_SECONDS).until(EC.visibility_of_element_located(locator))
+        except TimeoutException as e:
+            # print(self.gen_screenshot_path(locator))
+            self.driver.get_screenshot_as_file(self.gen_screenshot_path(locator))
+            msg = "Time out when locate element using %s: %s" %(locator[0], locator[-1])
+            raise TimeoutException(msg)
 
 
 
