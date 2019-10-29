@@ -20,5 +20,3 @@ def test_baidu_search(searchkey, browser):
     title = bd.search_title()
     assert title == searchkey + "_百度搜索"
 
-if __name__ == "_main__":
-    pytest.main(["-s", "test_baidu_search.py"])
