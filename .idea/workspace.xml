@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_ui_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_ui_demo.iml" afterDir="false" />
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="修改conftest的driver共用">
+      <change afterPath="$PROJECT_DIR$/class_exercise/class_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_exercise/class_exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/module_00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/module_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package00/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package00/package00_module00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package00/package00_module01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/package01/package01_module01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_exercise/test_package/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_baidu_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/HTMLTestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_obj/baidu_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_obj/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_obj/webdriver2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/run_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_zzz_close.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/2018-04-18_22_04_59report.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +37,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test_ui_demo$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1572363383690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise.coverage" NAME="class_exercise Coverage Results" MODIFIED="1572584216896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1572792021874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1523029128500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/learn" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$pytest_in_package01_module00_py.coverage" NAME="pytest in package01_module00.py Coverage Results" MODIFIED="1572863843870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$module_00.coverage" NAME="module_00 Coverage Results" MODIFIED="1572865343145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -29,66 +53,60 @@
     <favorites_list name="test_ui_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="e#2068#2078#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
+        <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module00.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_baidu_search.py">
+        <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="25">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_baidu_setting.py">
+        <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="3200">
+              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_obj/baidu_page.py">
+        <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="450">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_obj/webdriver2.py">
+        <entry file="file://$PROJECT_DIR$/module_exercise/module_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="333" column="22" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="22" />
-              <folding>
-                <element signature="e#15#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="900">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -118,9 +136,21 @@
         <option value="E:/caden_blog/caden_blog/blog/templates/list.html" />
         <option value="E:/caden_blog/caden_blog/blog/templates/view.html" />
         <option value="F:/learn/test_logging.py" />
-        <option value="$PROJECT_DIR$/run_tests.py" />
         <option value="$PROJECT_DIR$/test_case/test_baidu_search.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/run_tests.py" />
+        <option value="$PROJECT_DIR$/module_exercise/package00/package00_module00.py" />
+        <option value="$PROJECT_DIR$/module_exercise/package00/package00_module01.py" />
+        <option value="$PROJECT_DIR$/module_exercise/package01/__init__.py" />
+        <option value="$PROJECT_DIR$/module_exercise/module_01.py" />
+        <option value="$PROJECT_DIR$/page_obj/login_page.py" />
+        <option value="$PROJECT_DIR$/module_exercise/class_exercise.py" />
+        <option value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
+        <option value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
+        <option value="$PROJECT_DIR$/module_exercise/__init__.py" />
+        <option value="$PROJECT_DIR$/module_exercise/package01/package01_module01.py" />
+        <option value="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" />
+        <option value="$PROJECT_DIR$/module_exercise/module_00.py" />
       </list>
     </option>
   </component>
@@ -147,17 +177,28 @@
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="class_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="page_obj" type="462c0819:PsiDirectoryNode" />
+              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="package01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="test_package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -167,12 +208,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/wordpress_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\class_exercise" />
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\ui_demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\class_exercise" />
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\module_exercise" />
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\module_exercise\package00" />
       <recent name="D:\haixue_work\learn_cours\test_ui_demo" />
     </key>
   </component>
@@ -188,8 +236,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_tests">
-    <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.module_00">
+    <configuration name="class_exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,12 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_baidu_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,12 +267,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_baidu_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +281,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="module_00" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,12 +289,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/learn" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/learn/test_logging.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_exercise/module_00.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="package01_module00" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_ui_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_exercise/package01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,16 +365,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in package01_module00.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="test_ui_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/module_exercise/package01/package01_module00.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test_baidu_search" />
-      <item itemvalue="Python.run_tests" />
-      <item itemvalue="Python.test_logging" />
+      <item itemvalue="Python.module_00" />
+      <item itemvalue="Python.class_exercise (1)" />
+      <item itemvalue="Python.class_exercise1" />
+      <item itemvalue="Python tests.pytest in package01_module00.py" />
+      <item itemvalue="Python.package01_module00" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_tests" />
-        <item itemvalue="Python.test_logging" />
-        <item itemvalue="Python.test_baidu_search" />
+        <item itemvalue="Python.module_00" />
+        <item itemvalue="Python.package01_module00" />
+        <item itemvalue="Python tests.pytest in package01_module00.py" />
+        <item itemvalue="Python.class_exercise1" />
+        <item itemvalue="Python.class_exercise (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -318,64 +408,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520777733416</updated>
-      <workItem from="1572360012345" duration="2741000" />
+      <workItem from="1572360012345" duration="4833000" />
+      <workItem from="1572526290020" duration="10775000" />
+      <workItem from="1572583136924" duration="1894000" />
+      <workItem from="1572777969478" duration="15660000" />
+      <workItem from="1572862243389" duration="3149000" />
     </task>
+    <task id="LOCAL-00001" summary="修改conftest的driver共用">
+      <created>1572363482584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572363482584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_package01_module00_py - 2019.11.04 at 18h 36m 49s.xml">
+      <configuration name="pytest in package01_module00.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_package01_module00_py - 2019.11.04 at 18h 37m 24s.xml">
+      <configuration name="pytest in package01_module00.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2741000" />
+    <option name="totallyTimeSpent" value="36311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23848797" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21993127" />
       <window_info id="Structure" order="2" weight="0.30161053" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.4084507" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.20070423" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.089201875" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49965635" visible="true" weight="0.14201878" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49965635" visible="true" weight="0.28521127" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Data View" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19692533" />
-      <window_info id="Structure" order="2" weight="0.30161053" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.3280757" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.07097792" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Data View" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改conftest的driver共用" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改conftest的driver共用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/caden_blog/caden_blog/blog/static/css/bootstrap.min.css" />
@@ -392,38 +485,7 @@
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/common/exceptions.py" />
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://F:/learn/test_logging.py" />
-    <entry file="file://$PROJECT_DIR$/run_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_baidu_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_zzz_close.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_baidu_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_report/2019-10-29_22_56_58report.html">
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_report/2019-10-29_22_56_58report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -434,16 +496,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/baidu_page.py">
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_report/2019-10-29_23_29_34report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/_pytest/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="-7608">
+          <caret line="1139" column="36" selection-start-line="1139" selection-start-column="15" selection-end-line="1139" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/webdriver2.py">
+    <entry file="file://$PROJECT_DIR$/module_exercise/package00/package00_module00.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="175">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package00/package00_module01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package00/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/run_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/page_obj/baidu_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/page_obj/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/page_obj/webdriver2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8200">
           <caret line="333" column="22" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="22" />
           <folding>
             <element signature="e#15#79#0" expanded="true" />
@@ -451,23 +577,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_report/2019-10-29_23_29_34report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_case/test_zzz_close.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="691" column="35" selection-start-line="691" selection-end-line="692" />
+        <state relative-caret-position="25">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_case/test_baidu_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_report/2018-04-18_22_04_59report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_report/2019-10-29_22_49_30report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_report/2019-10-29_22_51_39report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/test_case/test_baidu_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_demo/config/data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-46941186/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7011">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1033#1233#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/module_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package01/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/test_package/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#2068#2078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
