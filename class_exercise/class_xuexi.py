@@ -10,6 +10,8 @@ class A:
         print(4,self,instance,owner)
         # return instance.__dict__['x']
         return self
+
+
 class B:
     x = A()
     def __init__(self):

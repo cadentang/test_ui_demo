@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="修改conftest的driver共用">
-      <change afterPath="$PROJECT_DIR$/class_exercise/class_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_exercise/class_exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/module_00.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/module_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package00/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package00/package00_module00.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package00/package00_module01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/package01/package01_module01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module_exercise/test_package/__init__.py" afterDir="false" />
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1104demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/HTMLTestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_obj/baidu_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_obj/login_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_obj/webdriver2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/run_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_baidu_setting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_zzz_close.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/2018-04-18_22_04_59report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_exercise/class_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/class_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_exercise/class_exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/class_xuexi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +18,7 @@
     <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1572792021874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1572967228791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1523029128500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/learn" />
     <SUITE FILE_PATH="coverage/test_ui_demo$pytest_in_package01_module00_py.coverage" NAME="pytest in package01_module00.py Coverage Results" MODIFIED="1572863843870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$module_00.coverage" NAME="module_00 Coverage Results" MODIFIED="1572865343145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
@@ -54,59 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="e#2068#2078#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module00.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3200">
-              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+            <state relative-caret-position="400">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise1.py">
+        <entry file="file://$PROJECT_DIR$/class_exercise/class_xuexi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_exercise/module_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="375">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -145,12 +83,12 @@
         <option value="$PROJECT_DIR$/module_exercise/module_01.py" />
         <option value="$PROJECT_DIR$/page_obj/login_page.py" />
         <option value="$PROJECT_DIR$/module_exercise/class_exercise.py" />
-        <option value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
-        <option value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
         <option value="$PROJECT_DIR$/module_exercise/__init__.py" />
         <option value="$PROJECT_DIR$/module_exercise/package01/package01_module01.py" />
         <option value="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" />
         <option value="$PROJECT_DIR$/module_exercise/module_00.py" />
+        <option value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
+        <option value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
       </list>
     </option>
   </component>
@@ -166,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,29 +118,13 @@
             </path>
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="package01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="test_package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.module_00">
+  <component name="RunManager" selected="Python.class_exercise (1)">
     <configuration name="class_exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,7 +193,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
+      <option name="SCRIPT_NAME" value="D:\haixue_work\learn_cours\test_ui_demo\class_exercise\class_xuexi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,16 +306,16 @@
       <item itemvalue="Python.module_00" />
       <item itemvalue="Python.class_exercise (1)" />
       <item itemvalue="Python.class_exercise1" />
-      <item itemvalue="Python tests.pytest in package01_module00.py" />
       <item itemvalue="Python.package01_module00" />
+      <item itemvalue="Python tests.pytest in package01_module00.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class_exercise (1)" />
         <item itemvalue="Python.module_00" />
         <item itemvalue="Python.package01_module00" />
         <item itemvalue="Python tests.pytest in package01_module00.py" />
         <item itemvalue="Python.class_exercise1" />
-        <item itemvalue="Python.class_exercise (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +333,9 @@
       <workItem from="1572526290020" duration="10775000" />
       <workItem from="1572583136924" duration="1894000" />
       <workItem from="1572777969478" duration="15660000" />
-      <workItem from="1572862243389" duration="3149000" />
+      <workItem from="1572862243389" duration="3853000" />
+      <workItem from="1572960232970" duration="5384000" />
+      <workItem from="1573052098190" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -421,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572363482584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1104demo">
+      <created>1572865426856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572865426856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -433,14 +363,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36311000" />
+    <option name="totallyTimeSpent" value="42403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21993127" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22542955" />
       <window_info id="Structure" order="2" weight="0.30161053" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.4084507" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
@@ -448,7 +378,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.089201875" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49965635" visible="true" weight="0.28521127" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49965635" weight="0.29460093" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -468,7 +398,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改conftest的driver共用" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改conftest的driver共用" />
+    <MESSAGE value="1104demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="1104demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/caden_blog/caden_blog/blog/static/css/bootstrap.min.css" />
@@ -610,13 +541,6 @@
     <entry file="file://$PROJECT_DIR$/ui_demo/config/data.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-46941186/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/softwore/python372/Lib/site-packages/selenium/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -651,27 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_exercise/module_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_exercise/package01/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -689,17 +592,10 @@
     <entry file="file://$PROJECT_DIR$/module_exercise/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="253">
+          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
           <folding>
             <element signature="e#2068#2078#0" expanded="true" />
           </folding>
@@ -708,8 +604,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module00.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/module_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-46941186/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="745" column="8" selection-start-line="745" selection-start-column="8" selection-end-line="745" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/class_xuexi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>

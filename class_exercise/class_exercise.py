@@ -1,3 +1,11 @@
+import abc
+
+class ABCClass(metaclass=abc.ABCMeta):
+
+    @abc.abstractmethod
+    def abc_function(self):
+        pass
+
 class Animal:
     '''
     人和狗都是动物，所以创造一个Animal基类
@@ -14,6 +22,7 @@ class Animal:
         self.__name = name
         self.aggressivity = aggressivity
         self.life_value = life_value
+        print("构造函数")
 
     # 实例方法
     # 在类中定义，以self为第一个参数的方法都是实例方法
@@ -70,20 +79,6 @@ class Animal:
     def _add(self):
         print("这个是单下划线类内部的使用方法")
 
-class Dog(Animal):
-    '''
-    狗类，继承Animal类
-    '''
-    def bite(self, people):
-
-        people.life_value -= self.aggressivity
-
-class Person(Animal):
-    '''
-    人类，继承Animal
-    '''
-    person_1 = "aa"
-
     def __call__(self, *args, **kwargs):
         print("产生人类")
 
@@ -101,6 +96,40 @@ class Person(Animal):
     def __delattr__(self, item):
         print("执行__delattr__")
 
+    def __new__(cls, *args, **kwargs):
+        print("实例产生")
+
+class Dog(Animal):
+    '''
+    狗类，继承Animal类
+    '''
+    def bite(self, people):
+
+        people.life_value -= self.aggressivity
+
+class Person(Animal):
+    '''
+    人类，继承Animal
+    '''
+    person_1 = "aa"
+
+    # def __call__(self, *args, **kwargs):
+    #     print("产生人类")
+    #
+    # def __str__(self):
+    #     return "人类：名字%s, 攻击力%s, 生命值%s" % (self.name, self.aggressivity, self.life_value)
+    #
+    # def __setattr__(self, key, value):
+    #     print("执行__setattr__")
+    #     self.__dict__[key] = value
+    #
+    # def __getattribute__(self, item):
+    #     print("执行__getattribute__")
+    #     return super().__getattribute__(item)
+    #
+    # def __delattr__(self, item):
+    #     print("执行__delattr__")
+
     def __set__(self, instance, value):
         pass
 
@@ -115,6 +144,17 @@ class Person(Animal):
 
 
 
+    # def __init__(self):
+    #     pass
+
+# print(Animal.__dict__)
+# print(Animal.__dict__["count"])
+# print(Animal.count)
+# print(Animal.eat)
+ani = Person("xiaohei", 200, 1000)
+print(ani.count)
+
+
 # print(Animal.static_method())
 # print(Animal.class_method())
 # a = Animal("kitty", 2, 40)
@@ -123,8 +163,8 @@ class Person(Animal):
 # print(a.__class__)
 # print(a.__dict__)
 
-bb = Person("xianzhang", "100", "1000")
-del bb.life_value
+# bb = Person("xianzhang", "100", "1000")
+# del bb.life_value
 # print(bb.life_value)
 # bb.person_1 = "bb"
 # print(bb.person_1)
