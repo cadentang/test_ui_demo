@@ -15,7 +15,7 @@ class Animal:
     count = 0
     _aaa = 1
     __bbb = 2
-
+    # __slots__ = ["__name"]
     # 构造函数, 将类实例化
     def __init__(self, name, aggressivity, life_value):
         # 实例属性，实例属性只能通过实例对象来访问和修改，类对象无法修改
@@ -24,14 +24,18 @@ class Animal:
         self.life_value = life_value
         print("构造函数")
 
+    def __new__(cls, *args, **kwargs):
+        pass
+
+
     # 实例方法
     # 在类中定义，以self为第一个参数的方法都是实例方法
     # 实例方法在调用时，Python会将调用对象作为self传入
     # 实例方法可以通过实例和类去调用
     # 当通过实例调用时，会自动将当前调用对象作为self传入
     # 当通过类调用时，不会自动传递self，此时我们必须手动传递self
-    def eat(self):
-        print('%s is eating' % self.name)
+    def eat_hit(self):
+        print('%s is eating' % self.__name)
 
     # 类方法
     # 在类内部使用 @classmethod 来修饰的方法属于类方法
@@ -51,6 +55,12 @@ class Animal:
     def static_method():
         print("这个是%s的静态方法" %  Animal.__doc__)
         return 1
+
+    def __add(self):
+        print("这个是双下划线类内部的使用方法")
+
+    def _add(self):
+        print("这个是单下划线类内部的使用方法")
 
     # 创建一个可以读但不能修改的属性
     @property
@@ -73,31 +83,37 @@ class Animal:
         print("这个是通过@name.deleter方法重新设置的值，值为%s" % self.__name)
         del self.__name
 
-    def __add(self):
-        print("这个是双下划线类内部的使用方法")
-
-    def _add(self):
-        print("这个是单下划线类内部的使用方法")
-
-    def __call__(self, *args, **kwargs):
-        print("产生人类")
+    # def __setattr__(self, key, value):
+    #     """无论是直接赋值还是通过内置的setattr函数赋值，都会调用"""
+    #     print("执行__setattr__")
+    #     self.__dict__[key] = value
+    #
+    # def __getattr__(self, item):
+    #     """如果某个类定义了这个方法，并且在该类的对象的字典中又找不到相应的属性时候，那么该方法会被调用"""
+    #     print("该实例没有这个属性，执行__getattr__")
+    #
+    # def __getattribute__(self, item):
+    #     """不管对象的字典中有没有找到对应的属性，都会调用"""
+    #     print("你访问了我的属性，不管有没有都执行__getattribute__")
+    #     return super().__getattribute__(item)
+    #
+    # def __delattr__(self, item):
+    #     """删除属性的时候调用"""
+    #     print("执行__delattr__")
 
     def __str__(self):
+        """打印类对象的时候调用该方法"""
         return "人类：名字%s, 攻击力%s, 生命值%s" % (self.name, self.aggressivity, self.life_value)
 
-    def __setattr__(self, key, value):
-        print("执行__setattr__")
-        self.__dict__[key] = value
+    def __repr__(self):
+        return "这个是实例调用的时候执行的__repr__"
 
-    def __getattribute__(self, item):
-        print("执行__getattribute__")
-        return super().__getattribute__(item)
+    # def __call__(self, *args, **kwargs):
+    #     print("动物被调用")
 
-    def __delattr__(self, item):
-        print("执行__delattr__")
-
-    def __new__(cls, *args, **kwargs):
-        print("实例产生")
+    # def __new__(cls, *args, **kwargs):
+    #     print("实例产生")
+    #     return super().__new__(cls)
 
 class Dog(Animal):
     '''
@@ -112,23 +128,6 @@ class Person(Animal):
     人类，继承Animal
     '''
     person_1 = "aa"
-
-    # def __call__(self, *args, **kwargs):
-    #     print("产生人类")
-    #
-    # def __str__(self):
-    #     return "人类：名字%s, 攻击力%s, 生命值%s" % (self.name, self.aggressivity, self.life_value)
-    #
-    # def __setattr__(self, key, value):
-    #     print("执行__setattr__")
-    #     self.__dict__[key] = value
-    #
-    # def __getattribute__(self, item):
-    #     print("执行__getattribute__")
-    #     return super().__getattribute__(item)
-    #
-    # def __delattr__(self, item):
-    #     print("执行__delattr__")
 
     def __set__(self, instance, value):
         pass
@@ -147,11 +146,20 @@ class Person(Animal):
     # def __init__(self):
     #     pass
 
+bb = Animal("kitty", 2, 40)
+# print(bb.name)
+bb.life_value = 1000
+# bb.name = 11
+# bb.xx = 11
+# print(bb.xx)
+# print(bb.__dict__)
+# print(bb)
+# print(Animal.__dict__["eat_hit"])
+# print(Animal.eat_hit)
+# print(id(Animal.count))
+# print(id(bb.count))
 
-print(Animal.__dict__["eat"])
-print(Animal.eat)
-a = Animal("kitty", 2, 40)
-print(map(id, a.eat()))
+
 
 # print(Animal.__dict__)
 # print(Animal.__dict__["count"])
@@ -182,11 +190,17 @@ print(map(id, a.eat()))
 # del bb.name
 # print(Animal.__dict__)
 # print(Animal.__class__)
-# print(a.__class__)
+# # print(a.__class__)
 # print(Animal.__name__)
 # print(Animal.__doc__)
-# print(Animal.__bases__)
+# print(Person.__bases__)
 # print(Animal.__module__)
 # print(Animal.__mro__)
 # print(Animal.__qualname__)
 
+def function_1():
+    pass
+
+Animal.static_method()
+Animal.class_method()
+function_1()

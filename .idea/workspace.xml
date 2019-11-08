@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1104demo">
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1106提交修改">
+      <change afterPath="$PROJECT_DIR$/class_exercise/class_learn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_exercise/class_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/class_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_exercise/class_exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/class_xuexi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,11 @@
     <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1572967228791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1573137245082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1523029128500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/learn" />
     <SUITE FILE_PATH="coverage/test_ui_demo$pytest_in_package01_module00_py.coverage" NAME="pytest in package01_module00.py Coverage Results" MODIFIED="1572863843870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$module_00.coverage" NAME="module_00 Coverage Results" MODIFIED="1572865343145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_learn.coverage" NAME="class_learn Coverage Results" MODIFIED="1573196195804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -32,10 +33,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
+        <entry file="file://$PROJECT_DIR$/class_exercise/class_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="394">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#1470#1488#0" />
+                <element signature="e#1535#1589#0" />
+                <element signature="e#1643#1803#0" />
+                <element signature="e#1851#1929#0" />
+                <element signature="e#2925#3029#0" />
+                <element signature="e#3057#3378#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2425">
+              <caret line="100" column="35" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="35" />
+              <folding>
+                <element signature="e#2068#2078#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,14 +110,15 @@
         <option value="$PROJECT_DIR$/module_exercise/module_00.py" />
         <option value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
         <option value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
+        <option value="$PROJECT_DIR$/class_exercise/class_learn.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="1072" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,18 +141,22 @@
             </path>
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../script/haixue_interface" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -157,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.class_exercise (1)">
+  <component name="RunManager" selected="Python.class_learn">
     <configuration name="class_exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="class_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +220,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\haixue_work\learn_cours\test_ui_demo\class_exercise\class_xuexi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/class_learn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,17 +332,17 @@
     <list>
       <item itemvalue="Python.module_00" />
       <item itemvalue="Python.class_exercise (1)" />
-      <item itemvalue="Python.class_exercise1" />
       <item itemvalue="Python.package01_module00" />
+      <item itemvalue="Python.class_learn" />
       <item itemvalue="Python tests.pytest in package01_module00.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.class_learn" />
         <item itemvalue="Python.class_exercise (1)" />
         <item itemvalue="Python.module_00" />
         <item itemvalue="Python.package01_module00" />
         <item itemvalue="Python tests.pytest in package01_module00.py" />
-        <item itemvalue="Python.class_exercise1" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +362,9 @@
       <workItem from="1572777969478" duration="15660000" />
       <workItem from="1572862243389" duration="3853000" />
       <workItem from="1572960232970" duration="5384000" />
-      <workItem from="1573052098190" duration="4000" />
+      <workItem from="1573052098190" duration="802000" />
+      <workItem from="1573135903856" duration="7426000" />
+      <workItem from="1573177002485" duration="4417000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -351,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572865426856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1106提交修改">
+      <created>1573052141627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573052141627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -363,22 +399,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42403000" />
+    <option name="totallyTimeSpent" value="55044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22542955" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18831615" />
       <window_info id="Structure" order="2" weight="0.30161053" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5003436" side_tool="true" weight="0.4084507" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010309" side_tool="true" weight="0.34741783" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3286385" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.089201875" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49965635" weight="0.29460093" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.16431925" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -399,7 +435,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改conftest的driver共用" />
     <MESSAGE value="1104demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="1104demo" />
+    <MESSAGE value="1106提交修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="1106提交修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://E:/caden_blog/caden_blog/blog/static/css/bootstrap.min.css" />
@@ -592,16 +629,6 @@
     <entry file="file://$PROJECT_DIR$/module_exercise/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding>
-            <element signature="e#2068#2078#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_exercise/package01/package01_module00.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -632,8 +659,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class_exercise/class_exercise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="147" column="14" lean-forward="true" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+          <folding>
+            <element signature="e#1342#1360#0" />
+            <element signature="e#1407#1461#0" />
+            <element signature="e#1515#1675#0" />
+            <element signature="e#1723#1801#0" />
+            <element signature="e#2007#2087#0" />
+            <element signature="e#2136#2193#0" />
+            <element signature="e#2241#2314#0" />
+            <element signature="e#2357#2379#0" />
+            <element signature="e#2428#2441#0" />
+            <element signature="e#2466#2570#0" />
+            <element signature="e#2598#3432#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/class_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#1470#1488#0" />
+            <element signature="e#1535#1589#0" />
+            <element signature="e#1643#1803#0" />
+            <element signature="e#1851#1929#0" />
+            <element signature="e#2925#3029#0" />
+            <element signature="e#3057#3378#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2425">
+          <caret line="100" column="35" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="35" />
+          <folding>
+            <element signature="e#2068#2078#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
