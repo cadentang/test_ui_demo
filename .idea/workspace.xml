@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1106提交修改">
-      <change afterPath="$PROJECT_DIR$/class_exercise/class_learn.py" afterDir="false" />
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1108提交修改">
+      <change afterPath="$PROJECT_DIR$/class_exercise/descirptor_learn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_exercise/inherit_learn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_css_js_learn/css_learn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_css_js_learn/html_learn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_css_js_learn/js_learn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html_css_js_learn/movie.ogv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_exercise/class_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/class_exercise.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +22,14 @@
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise.coverage" NAME="class_exercise Coverage Results" MODIFIED="1572584216896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$descirptor_learn.coverage" NAME="descirptor_learn Coverage Results" MODIFIED="1573286289932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$inherit_learn.coverage" NAME="inherit_learn Coverage Results" MODIFIED="1573289100931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1573137245082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1523029128500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/learn" />
     <SUITE FILE_PATH="coverage/test_ui_demo$pytest_in_package01_module00_py.coverage" NAME="pytest in package01_module00.py Coverage Results" MODIFIED="1572863843870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$module_00.coverage" NAME="module_00 Coverage Results" MODIFIED="1572865343145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$class_learn.coverage" NAME="class_learn Coverage Results" MODIFIED="1573196195804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_learn.coverage" NAME="class_learn Coverage Results" MODIFIED="1573220779106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -32,21 +39,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class_exercise/class_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-              <folding>
-                <element signature="e#1470#1488#0" />
-                <element signature="e#1535#1589#0" />
-                <element signature="e#1643#1803#0" />
-                <element signature="e#1851#1929#0" />
-                <element signature="e#2925#3029#0" />
-                <element signature="e#3057#3378#0" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class_exercise/descirptor_learn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class_exercise/inherit_learn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_css_js_learn/html_learn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_css_js_learn/css_learn.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html_css_js_learn/js_learn.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,6 +112,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,14 +150,19 @@
         <option value="$PROJECT_DIR$/class_exercise/class_exercise1.py" />
         <option value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
         <option value="$PROJECT_DIR$/class_exercise/class_learn.py" />
+        <option value="$PROJECT_DIR$/class_exercise/inherit_learn.py" />
+        <option value="$PROJECT_DIR$/html_css_js_learn/html_learn.html" />
+        <option value="$PROJECT_DIR$/html_css_js_learn/css_learn.css" />
+        <option value="$PROJECT_DIR$/html_css_js_learn/js_learn.js" />
+        <option value="$PROJECT_DIR$/class_exercise/descirptor_learn.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="1072" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,7 +186,7 @@
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test_ui_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="module_exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="html_css_js_learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test_ui_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -155,8 +199,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../script/haixue_interface" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -166,6 +212,7 @@
       <recent name="D:\haixue_work\learn_cours\test_ui_demo\ui_demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\haixue_work\learn_cours\test_ui_demo\html_css_js_learn" />
       <recent name="D:\haixue_work\learn_cours\test_ui_demo\class_exercise" />
       <recent name="D:\haixue_work\learn_cours\test_ui_demo\module_exercise" />
       <recent name="D:\haixue_work\learn_cours\test_ui_demo\module_exercise\package00" />
@@ -184,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.class_learn">
+  <component name="RunManager" selected="Python.inherit_learn">
     <configuration name="class_exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +276,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="descirptor_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_ui_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/descirptor_learn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inherit_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_ui_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/inherit_learn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="module_00" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,28 +334,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_exercise/module_00.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="package01_module00" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_ui_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_exercise/package01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_exercise/package01/package01_module00.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,36 +382,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in package01_module00.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="test_ui_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/module_exercise/package01/package01_module00.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.module_00" />
       <item itemvalue="Python.class_exercise (1)" />
-      <item itemvalue="Python.package01_module00" />
       <item itemvalue="Python.class_learn" />
-      <item itemvalue="Python tests.pytest in package01_module00.py" />
+      <item itemvalue="Python.descirptor_learn" />
+      <item itemvalue="Python.inherit_learn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inherit_learn" />
+        <item itemvalue="Python.descirptor_learn" />
         <item itemvalue="Python.class_learn" />
         <item itemvalue="Python.class_exercise (1)" />
         <item itemvalue="Python.module_00" />
-        <item itemvalue="Python.package01_module00" />
-        <item itemvalue="Python tests.pytest in package01_module00.py" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +417,12 @@
       <workItem from="1572960232970" duration="5384000" />
       <workItem from="1573052098190" duration="802000" />
       <workItem from="1573135903856" duration="7426000" />
-      <workItem from="1573177002485" duration="4417000" />
+      <workItem from="1573177002485" duration="4725000" />
+      <workItem from="1573219569786" duration="9611000" />
+      <workItem from="1573285162013" duration="13161000" />
+      <workItem from="1573359880784" duration="38000" />
+      <workItem from="1573391469589" duration="882000" />
+      <workItem from="1573454418833" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -387,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573052141627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1108提交修改">
+      <created>1573211791591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573211791591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -399,14 +464,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55044000" />
+    <option name="totallyTimeSpent" value="79345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18831615" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20206186" />
       <window_info id="Structure" order="2" weight="0.30161053" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010309" side_tool="true" weight="0.34741783" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
@@ -414,8 +479,8 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.089201875" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.16431925" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49896908" weight="0.096244134" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -436,14 +501,10 @@
     <MESSAGE value="修改conftest的driver共用" />
     <MESSAGE value="1104demo" />
     <MESSAGE value="1106提交修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="1106提交修改" />
+    <MESSAGE value="1108提交修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="1108提交修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/caden_blog/caden_blog/blog/static/css/bootstrap.min.css" />
-    <entry file="file://E:/caden_blog/caden_blog/blog/tests.py" />
-    <entry file="file://E:/caden_blog/caden_blog/caden_blog/settings.py" />
-    <entry file="file://E:/caden_blog/caden_blog/blog/templates/add.html" />
-    <entry file="file://E:/caden_blog/caden_blog/blog/templates/index.html" />
     <entry file="file://E:/caden_blog/caden_blog/blog/views.py" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-03-13_21_55_07report.html" />
     <entry file="file://E:/caden_blog/caden_blog/blog/templates/view.html" />
@@ -679,18 +740,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class_exercise/class_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="e#1470#1488#0" />
-            <element signature="e#1535#1589#0" />
-            <element signature="e#1643#1803#0" />
-            <element signature="e#1851#1929#0" />
-            <element signature="e#2925#3029#0" />
-            <element signature="e#3057#3378#0" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/inherit_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_css_js_learn/html_learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_css_js_learn/css_learn.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_css_js_learn/js_learn.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/module_exercise/module_00.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -706,6 +779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class_exercise/descirptor_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
