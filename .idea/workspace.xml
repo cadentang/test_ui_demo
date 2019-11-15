@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交继承相关知识和jenkins测试代码run.py">
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交新的chromedriver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -382,7 +382,7 @@
       <workItem from="1573391469589" duration="882000" />
       <workItem from="1573454418833" duration="7982000" />
       <workItem from="1573487479181" duration="3528000" />
-      <workItem from="1573793087165" duration="5594000" />
+      <workItem from="1573793087165" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -433,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573803612289</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="11月15日提交新的chromedriver">
+      <created>1573804021985</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573804021985</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,14 +452,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96148000" />
+    <option name="totallyTimeSpent" value="96400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17457044" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17457044" />
       <window_info id="Structure" order="2" weight="0.30161053" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010309" side_tool="true" weight="0.34741783" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
@@ -460,7 +467,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.57276994" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.13615024" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.13615024" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -486,7 +493,8 @@
     <MESSAGE value="1111提交面向对象属性控制及继承相关知识" />
     <MESSAGE value="1111提交" />
     <MESSAGE value="11月15日提交继承相关知识和jenkins测试代码run.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交继承相关知识和jenkins测试代码run.py" />
+    <MESSAGE value="11月15日提交新的chromedriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交新的chromedriver" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/common/exceptions.py" />
