@@ -10,7 +10,7 @@ description:反射、封装、继承和多态抽象类
         name   -- 字符串，对象属性
         default-- 默认返回值，如果不提供该参数，在没有对应属性时，将触发AttrbuteError.
         返回值 ：返回对象属性值 
-    3.hasattr() 函数用于判断对象是够包含对应的属性
+    3.hasattr() 函数用于判断对象是否包含对应的属性
         判断一个对象里面是否有name属性或者name方法，返回BOOL值，有name特性返回True， 否则返回False。
         需要注意的是name是一个字符串字面值或字符串类型变量，如果获取的是方法，存在则返回对象中方法的内存地址，
         若想运行则需通过"()"方法.
@@ -47,7 +47,7 @@ description:反射、封装、继承和多态抽象类
     
 抽象类：
     抽象类是一个规范，它基本不会实现什么具体的功能，抽象类是不能被实例化
-    要想写一个抽象类“
+    要想写一个抽象类
         from abc import ABCMeta,abstractmethod
         在这个类创建的时候指定 metaclass = ABCMeta
         在你希望子类实现的方法上加上一个 @abstractmethod装饰器
@@ -70,6 +70,7 @@ class Human:
 
     def end(self):
         print("人挂了, end_life=", self.end_life)
+
 
 class Man(Human):
     """
@@ -165,10 +166,21 @@ qqq=2
 # def pay(obj,money):
 #     obj.pay(money)
 #
-# # p = Payment()
+# p = Payment()
 # a = Alipay()
 # we = Wechatpay()
 # ap = ApplePay()
 # pay(a,100)
 # pay(we,200)
 
+class BasePage:
+    course_a = '//*[@id="9"]'
+
+    def opration(self):
+        pass
+
+class CoursePage(BasePage):
+    pass
+
+course = CoursePage()
+print(course.course_a)
