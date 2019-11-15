@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交新的chromedriver">
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交新的chromedriver00">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_demo/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/chromedriver.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +14,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test_ui_demo$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1573489547123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_demo" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise.coverage" NAME="class_exercise Coverage Results" MODIFIED="1572584216896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$descirptor_learn.coverage" NAME="descirptor_learn Coverage Results" MODIFIED="1573488652566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$inherit_learn.coverage" NAME="inherit_learn Coverage Results" MODIFIED="1573799412507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
-    <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
     <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise__1_.coverage" NAME="class_exercise (1) Coverage Results" MODIFIED="1573137245082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1520866622094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$class_exercise1.coverage" NAME="class_exercise1 Coverage Results" MODIFIED="1572798140082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class_exercise" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$package01_module00.coverage" NAME="package01_module00 Coverage Results" MODIFIED="1572865208018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise/package01" />
+    <SUITE FILE_PATH="coverage/test_ui_demo$run.coverage" NAME="run Coverage Results" MODIFIED="1573804560245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_demo" />
     <SUITE FILE_PATH="coverage/test_ui_demo$test_logging.coverage" NAME="test_logging Coverage Results" MODIFIED="1523029128500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/learn" />
     <SUITE FILE_PATH="coverage/test_ui_demo$pytest_in_package01_module00_py.coverage" NAME="pytest in package01_module00.py Coverage Results" MODIFIED="1572863843870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
     <SUITE FILE_PATH="coverage/test_ui_demo$module_00.coverage" NAME="module_00 Coverage Results" MODIFIED="1572865343145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module_exercise" />
@@ -189,29 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.inherit_learn">
-    <configuration name="class_exercise (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test_ui_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class_exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/class_exercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.run">
     <configuration name="class_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_ui_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,6 +250,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_exercise/inherit_learn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_ui_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_demo/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,19 +343,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.class_exercise (1)" />
       <item itemvalue="Python.class_learn" />
       <item itemvalue="Python.descirptor_learn" />
       <item itemvalue="Python.inherit_learn" />
       <item itemvalue="Python.run_tests" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.inherit_learn" />
         <item itemvalue="Python.run_tests" />
         <item itemvalue="Python.descirptor_learn" />
         <item itemvalue="Python.class_learn" />
-        <item itemvalue="Python.class_exercise (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +384,7 @@
       <workItem from="1573391469589" duration="882000" />
       <workItem from="1573454418833" duration="7982000" />
       <workItem from="1573487479181" duration="3528000" />
-      <workItem from="1573793087165" duration="5846000" />
+      <workItem from="1573793087165" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -440,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573804021985</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="11月15日提交新的chromedriver00">
+      <created>1573804251194</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573804251194</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -452,7 +461,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96400000" />
+    <option name="totallyTimeSpent" value="96755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
@@ -467,7 +476,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.57276994" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.13615024" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49896908" visible="true" weight="0.25586855" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -494,7 +503,8 @@
     <MESSAGE value="1111提交" />
     <MESSAGE value="11月15日提交继承相关知识和jenkins测试代码run.py" />
     <MESSAGE value="11月15日提交新的chromedriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交新的chromedriver" />
+    <MESSAGE value="11月15日提交新的chromedriver00" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交新的chromedriver00" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/common/exceptions.py" />
