@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="1111提交">
-      <change afterPath="$PROJECT_DIR$/ui_demo/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_demo/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_demo/test_case/test_case_01/test_module_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_demo/test_case/test_case_01/test_module_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_demo/test_case/test_case_02/test_baidu_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_demo/test_case/test_case_02/test_baidu_02.py" afterDir="false" />
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交继承相关知识和jenkins测试代码run.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_exercise/inherit_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_exercise/inherit_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_demo/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_demo/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/run_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/ui_demo/run_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-14">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -56,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui_demo/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -391,7 +382,7 @@
       <workItem from="1573391469589" duration="882000" />
       <workItem from="1573454418833" duration="7982000" />
       <workItem from="1573487479181" duration="3528000" />
-      <workItem from="1573793087165" duration="5144000" />
+      <workItem from="1573793087165" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -435,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573472086334</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="11月15日提交继承相关知识和jenkins测试代码run.py">
+      <created>1573803612289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573803612289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -447,7 +445,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95698000" />
+    <option name="totallyTimeSpent" value="96148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
@@ -487,7 +485,8 @@
     <MESSAGE value="1108提交修改" />
     <MESSAGE value="1111提交面向对象属性控制及继承相关知识" />
     <MESSAGE value="1111提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="1111提交" />
+    <MESSAGE value="11月15日提交继承相关知识和jenkins测试代码run.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交继承相关知识和jenkins测试代码run.py" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/common/exceptions.py" />
@@ -782,7 +781,7 @@
     <entry file="file://$PROJECT_DIR$/ui_demo/run_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -791,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui_demo/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
