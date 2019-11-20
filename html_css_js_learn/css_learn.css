@@ -1,0 +1,21 @@
+/**
+    参考资料：
+    https://www.w3school.com.cn/css/index.asp
+
+    #container 选择id为container的元素
+    .container 选择所有class包含container的元素
+    * 选择所有元素
+    div a 选取所有div下所有a元素
+    ul + p 选取ul后面的第一个p元素
+    ul ~p 选取与ul相邻的所有p元素
+    a:nth-child(2) 选取下面第二个标签，如果是a的话则选取，不是则不取
+    a:nth-child(2n) 选取第偶数个a元素
+    a:nth-child(2n+1) 选取第奇数个a元素
+    li.multi-chosen > a 选取class为multi-chosen的li的所有a元素
+    a[title] 选取所有拥有title属性的a元素
+    a[href=”https://www.lagou.com/jobs/3537439.html”] 选取所有href属性为https://www.lagou.com/jobs/3537439.html的a元素
+    a[href*=”www.lagou.com”] 选取所有href属性值中包含www.lagou.com的a元素
+    a[href^=”http”] 选取所有href属性值中以http开头的a元素
+    div:not(#content-container) 选取所有id为非content-container 的div
+ */
+

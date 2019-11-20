@@ -7,7 +7,6 @@
         .div { margin:0 auto; width:400px; height:100px; border:0px solid #F00}
         .table { margin:0 auto; width:400px; height:100px; border:1px solid #F00}
         .video { text-align: center; margin:0 auto; width:400px; height:400px; border:0px solid #F00}
-
     </style>
 
     <!-- 新 Bootstrap 核心 CSS 文件 -->
@@ -16,13 +15,15 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="css_learn.css"></script>
 </head>
 
 <body>
-<a>aaaaa</a>
-<div>
-    <video src="/test_ui_demo/html_css_js_learn/movie.ogv" controls="controls" class="video">
-</video>
+
+    <div>
+        <video src="/test_ui_demo/html_css_js_learn/movie.ogv" controls="controls" class="video">
+    </video>
+    <a>aaaaa</a>
 </div>
 <br>
 
@@ -45,7 +46,7 @@
         </div>
         </th>
     </tr>
-</table>
+    </table>
 </div>
 
 <div class="dropup">
@@ -53,6 +54,7 @@
     Dropup
     <span class="caret"></span>
   </button>
+
   <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
     <li><a href="#">Action</a></li>
     <li><a href="#">Another action</a></li>
@@ -68,24 +70,55 @@
 <!--
 HTML DOM树
 HTML 常见元素
-<a>
-<div>
-<p>
-<button>
-<ol>
-<ul>
-<li>
-<form>
-<frame>
-<input>
-<label>
-<select>
-<option>
-<style>
-<table>
-<tr>
-<td>
-<th>
+    <html></html>
+    <head></head>
+    <body></body>
+    <script></script>
+    <style></style>
+
+    <br>换行符
+
+    块级元素
+    <div> 区块
+    <form> HTML 表单
+    <frame>框架  switch_to
+    <frameset>
+        <frame></frame>
+        <frame></frame>
+    </frameset>框架集
+
+    <p> 段落
+    <a> 超链接
+    <button> 按钮
+    <ol> 有序列表
+    <ul> 无序列表
+    <li> 列表中的项目
+    <h1> - <h6> 标题定义
+    <input> 搜集用户信息
+    <label> 为 input 元素定义标注（标记）
+    <select> 单选或多选菜单
+    <option> 单选或多选的选项
+    <table></table> 表格
+    <tr></tr> 表格的一行
+    <th></th> 表格的表头
+    <td></td> 表格的一个单元
 
 HTML 常见属性
+    id:
+    class:
+    style:CSS样式
+    hidden:是否隐藏
+    type
+    自定义属性
+
+HTML 常见事件
+    onblur：
+    onchange：
+    onfocus：
+    onselect：
+    onsubmit：
+    onclick：
+    ondrag：
+    ondblclick：
+
 -->
