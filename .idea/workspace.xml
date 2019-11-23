@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月20提交前端相关知识">
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月20注释pytest.ini文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_demo/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/pytest.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui_demo/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="475">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -468,7 +467,7 @@
       <workItem from="1574158269164" duration="3079000" />
       <workItem from="1574178051138" duration="1190000" />
       <workItem from="1574213172066" duration="2403000" />
-      <workItem from="1574403064480" duration="641000" />
+      <workItem from="1574403064480" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -547,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574219256678</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="11月20注释pytest.ini文件">
+      <created>1574486826195</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574486826195</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -559,7 +565,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117969000" />
+    <option name="totallyTimeSpent" value="118322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
@@ -604,7 +610,8 @@
     <MESSAGE value="11月15日提交新的chromedriver00" />
     <MESSAGE value="11月15日提交新的chromedriver00000" />
     <MESSAGE value="11月20提交前端相关知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月20提交前端相关知识" />
+    <MESSAGE value="11月20注释pytest.ini文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月20注释pytest.ini文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
@@ -928,8 +935,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui_demo/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
