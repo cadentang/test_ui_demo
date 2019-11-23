@@ -94,13 +94,13 @@ pytest 命令行参数：
 
 driver = None
 
-# @pytest.fixture(scope='session', autouse=True)
-# def browser():
-#     global driver
-#     if driver is None:
-#         driver = webdriver.Chrome()
-#
-#     yield(driver)
-#     driver.quit()
-#     return driver
+@pytest.fixture(scope='session', autouse=True)
+def browser():
+    global driver
+    if driver is None:
+        driver = webdriver.Chrome()
+
+    yield(driver)
+    driver.quit()
+    return driver
 
