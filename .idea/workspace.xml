@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月15日提交新的chromedriver00000">
-      <change afterPath="$PROJECT_DIR$/pytest_learn/base_pytest.py" afterDir="false" />
+    <list default="true" id="f39e26cf-15de-4ccd-b230-770cd25d47a3" name="Default" comment="11月20提交前端相关知识">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_css_js_learn/css_learn.css" beforeDir="false" afterPath="$PROJECT_DIR$/html_css_js_learn/css_learn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_css_js_learn/html_learn.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_css_js_learn/html_learn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html_css_js_learn/js_learn.js" beforeDir="false" afterPath="$PROJECT_DIR$/html_css_js_learn/js_learn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_demo/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ui_demo/pytest.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui_demo/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="200">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -95,16 +92,16 @@
         <entry file="file://$PROJECT_DIR$/html_css_js_learn/css_learn.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_css_js_learn/html_learn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+            <state relative-caret-position="367">
+              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -113,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/html_css_js_learn/js_learn.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -176,7 +173,6 @@
         <option value="$PROJECT_DIR$/ui_demo/test_case/test_case_02/test_baidu_02.py" />
         <option value="$PROJECT_DIR$/ui_demo/run_tests.py" />
         <option value="$PROJECT_DIR$/ui_demo/pytest.ini.py" />
-        <option value="$PROJECT_DIR$/ui_demo/pytest.ini" />
         <option value="$PROJECT_DIR$/ui_demo/conftest.py" />
         <option value="$PROJECT_DIR$/class_exercise/inherit_learn.py" />
         <option value="$PROJECT_DIR$/ui_demo/run.py" />
@@ -185,12 +181,13 @@
         <option value="$PROJECT_DIR$/ui_demo/page_obj/baidu_page.py" />
         <option value="$PROJECT_DIR$/html_css_js_learn/js_learn.js" />
         <option value="$PROJECT_DIR$/html_css_js_learn/html_learn.html" />
+        <option value="$PROJECT_DIR$/ui_demo/pytest.ini" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -200,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,13 +234,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/my-git-project/pytest_learn_demo/pytest_learn_demo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -470,7 +467,8 @@
       <workItem from="1574086858514" duration="5092000" />
       <workItem from="1574158269164" duration="3079000" />
       <workItem from="1574178051138" duration="1190000" />
-      <workItem from="1574213172066" duration="924000" />
+      <workItem from="1574213172066" duration="2403000" />
+      <workItem from="1574403064480" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="修改conftest的driver共用">
       <created>1572363482584</created>
@@ -542,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573804608588</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="11月20提交前端相关知识">
+      <created>1574219256678</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574219256678</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -554,14 +559,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115849000" />
+    <option name="totallyTimeSpent" value="117969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18969072" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23092784" />
       <window_info id="Structure" order="2" weight="0.30161053" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010309" side_tool="true" weight="0.34741783" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3289689" />
@@ -598,7 +603,8 @@
     <MESSAGE value="11月15日提交新的chromedriver" />
     <MESSAGE value="11月15日提交新的chromedriver00" />
     <MESSAGE value="11月15日提交新的chromedriver00000" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月15日提交新的chromedriver00000" />
+    <MESSAGE value="11月20提交前端相关知识" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月20提交前端相关知识" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
@@ -889,13 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui_demo/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui_demo/page_obj/baidu_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -903,27 +902,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html_css_js_learn/css_learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html_css_js_learn/js_learn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_css_js_learn/css_learn.css">
+    <entry file="file://$PROJECT_DIR$/html_css_js_learn/html_learn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="367">
+          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_css_js_learn/html_learn.html">
+    <entry file="file://$PROJECT_DIR$/ui_demo/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
